@@ -11,8 +11,6 @@ class Anagram
       words.collect do |word|
         if @word.split("").sort == word.split("").sort 
           word 
-        else 
-          false 
         end 
       end   
     end 
